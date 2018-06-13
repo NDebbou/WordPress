@@ -20,10 +20,10 @@
 
 //Using environment variables for DB connection information
 
-$connectstr_dbhost = '';
-$connectstr_dbname = '';
-$connectstr_dbusername = '';
-$connectstr_dbpassword = '';
+$connectstr_dbhost = 'vargnydb.mysql.database.azure.com';
+$connectstr_dbname = 'vargnyprod';
+$connectstr_dbusername = 'vargny-admin@vargnydb';
+$connectstr_dbpassword = 'XZmUD7qxe5VWrIzSs2jm';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_") !== 0) {

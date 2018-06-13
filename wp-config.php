@@ -22,7 +22,7 @@
 
 $connectstr_dbhost = 'vargnydb.mysql.database.azure.com';
 $connectstr_dbname = 'vargnyprod';
-$connectstr_dbusername = 'vargny-admin';
+$connectstr_dbusername = 'vargny-admin@vargnydb';
 $connectstr_dbpassword = 'XZmUD7qxe5VWrIzSs2jm';
 
 foreach ($_SERVER as $key => $value) {
